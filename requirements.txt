@@ -1,0 +1,5 @@
+openai==0.27
+python-dateutil
+sympy
+numpy
+pandas
