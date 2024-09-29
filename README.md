@@ -63,6 +63,12 @@ python eval.py --dataset gsm  --acts vanilla cot --eval_file  results/gsm_gpt-4o
 ## Results Logs
 Some results logs are in the `results` folder.
 
+## GPT-4o-mini + Re2
+We also conduct experiments on GPT-4o-mini. Change the `--model` parameter to `gpt-4o-mini-2024-07-18` to run the experiments on GPT-4o-mini.
+The results are shown as follows:
+<p align="center">
+  <img src="gpt-4o-mini.jpg" width="80%">
+</p>
 
 # Citation 
 
