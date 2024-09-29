@@ -39,7 +39,7 @@ sh run.sh
 
 The parameter `--multithread` could be added to run the code in parallel to speed up the process a lot.
 ```bash
-python main.py --dataset gsm --temperature 0.0 --acts vanilla cot --model gpt-3.5-turbo-0613 --read_times 2 
+python main.py --dataset gsm --temperature 0.0 --acts vanilla cot --model gpt-3.5-turbo-0613 --read_times 2  --multithread
 ```
 
 Run Self-Consistency Experiments: 
@@ -60,6 +60,8 @@ Evaluation will be done automatically after the generation. Or you could run the
 python eval.py --dataset gsm  --acts vanilla cot --eval_file  results/gsm_gpt-4o-mini-2024-07-18_topp1.0_temp0.0_majority1_readtimes1_20240926_221724.jsonl
 ```
 
+## Results Logs
+Some results logs are in the `results` folder.
 
 
 # Citation 
