@@ -85,3 +85,6 @@ If you find this work helpful, please consider citing our paper:
 
 # Acknowledgement
 We refer to the code of [PAL](https://github.com/reasoning-machines/pal). Thanks for their contributions.
+
+- Modification: Implemented the Re2 method based on the PAL codebase.
+- Date: March 2024
