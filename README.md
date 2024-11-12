@@ -75,12 +75,26 @@ The results are shown as follows:
 If you find this work helpful, please consider citing our paper:
 
 ```
-@inproceedings{re2,
-  title={Re-reading improves reasoning in large language models},
-  author={Xiaohan Xu, Chongyang Tao, Tao Shen, Can Xu, Hongbo Xu, Guodong Long, Jian-Guang Lou, Shuai Ma},
-  booktitle={EMNLP},
-  year={2024}
-}
+@inproceedings{xu-etal-2024-reading,
+    title = "Re-Reading Improves Reasoning in Large Language Models",
+    author = "Xu, Xiaohan  and
+      Tao, Chongyang  and
+      Shen, Tao  and
+      Xu, Can  and
+      Xu, Hongbo  and
+      Long, Guodong  and
+      Lou, Jian-Guang  and
+      Ma, Shuai",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.871",
+    pages = "15549--15575"
 ```
 
 # Acknowledgement
