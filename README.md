@@ -95,6 +95,7 @@ If you find this work helpful, please consider citing our paper:
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.emnlp-main.871",
     pages = "15549--15575"
+}
 ```
 
 # Acknowledgement
