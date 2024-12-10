@@ -56,9 +56,38 @@ python main.py --dataset gsm --temperature 0.0 --verbose --debug --acts ps pal -
 
 ## Evaluation
 Evaluation will be done automatically after the generation. Or you could run the evaluation code manually:
+
+```bash
+python eval.py --dataset dataset_name --acts vanilla cot --eval_file generated_file
+```
+
+For example, to evaluate the generated file on the GSM dataset:
+
 ```bash
 python eval.py --dataset gsm  --acts vanilla cot --eval_file  results/gsm_gpt-4o-mini-2024-07-18_topp1.0_temp0.0_majority1_readtimes1_20240926_221724.jsonl
 ```
+
+## Run on Other datasets
+
+You could run the code on other datasets by changing the `--dataset` parameter. 
+
+Parameters for the datasets are as follows:
+
+- `gsm`: GSM dataset
+- `svamp`: SVAMP dataset
+- `asdiv`: ASdiv dataset
+- `aqua`: Aqua dataset
+- `multiarith`: MultiArith dataset
+- `mawpssingleeq`: MAWPS Single Equation dataset
+- `mawpsaddsub`: MAWPS AddSub dataset
+- `commonsenseqa`: CommonsenseQA dataset
+- `strategyqa`: StrategyQA dataset
+- `arc_easy`: ARC Easy dataset
+- `arc_challenge`: ARC Challenge dataset
+- `date_understanding`: Date Understanding dataset
+- `coin_flip`: Coin Flip dataset
+
+
 
 ## Results Logs
 Some results logs are in the `results` folder.

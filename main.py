@@ -206,7 +206,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--append', action='store_true')
     parser.add_argument('--verbose', action='store_true')
-    parser.add_argument('--data_dir', default="../data/reasoning_tasks", type=str)
+    parser.add_argument('--data_dir', default="data", type=str)
     parser.add_argument('--file_name', default=None, type=str, help="The file name of the dataset. If not specified, it will be the same as the dataset name.")
     parser.add_argument('--dataset', default='gsm', type=str)
     parser.add_argument('--result_path', default=None, type=str, help="The path to store the results. You can do not specify it and the results will be stored in the results folder.")

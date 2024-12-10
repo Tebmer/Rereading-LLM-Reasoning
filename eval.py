@@ -81,4 +81,10 @@ if __name__ == '__main__':
     parser.add_argument("--dataset", type=str, default="gsm")
     parser.add_argument("--re_extract", action="store_true", help="re-extract the answer from the generation")
     args = parser.parse_args()
+
+    if args.dataset in ["svamp", "multiarith", "mawpssingleeq", "mawpsaddsub"]: 
+        args.dataset = "gsm"    # Use the prompt of gsm for math dataset
+    elif args.dataset in ["arc_easy", "arc_challenge"]:
+        args.dataset = "commonsenseqa"  # Use the prompt of commonsenseqa for arc dataset. They are the same in format.
+        
     main(args)
